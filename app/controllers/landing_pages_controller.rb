@@ -4,4 +4,8 @@ class LandingPagesController < ApplicationController
 
   end
 
+  def subscribe
+
+  end
+
 end
