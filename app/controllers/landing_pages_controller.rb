@@ -8,4 +8,8 @@ class LandingPagesController < ApplicationController
 
   end
 
+  def wireform
+
+  end
+
 end

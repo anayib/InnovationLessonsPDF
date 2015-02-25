@@ -1,3 +1,9 @@
+<script>
+  mixpanel.track("loaded_subscribe_page",{"Page Name": "Landing_Subscribe_Page"});
+  mixpanel.track_links("#PayByGumroad", "clicked pagar por tarjeta crédito");
+  mixpanel.track_links("#PayByWire", "clicked pagar por transferencia");
+</script>
+
 <br><br><br><br>
 <div class="container">
   <div class="row">
@@ -12,7 +18,7 @@
     <div class="col-md-1"></div>
     <div class="col-md-10">
 
-       <%= link_to"Pagar con tarjeta de crédito", "#", class: "btn btn-warning btn-lg btn-block fa fa-credit-card fa-5x", style: "color:white;" %>
+       <%= link_to"Pagar con tarjeta de crédito", "#", id: "PayByGumroad",class: "btn btn-warning btn-lg btn-block fa fa-credit-card fa-5x", style: "color:white;" %>
     </div>
 
     <div class="col-md-1"></div>
@@ -21,7 +27,7 @@
     <div class="col-md-1"></div>
     <div class="col-md-10">
 
-       <%= link_to"Pagar por consignación o transferencia bancaria", "#", class: "btn btn-default btn-lg btn-block fa fa-usd fa-5x", style: "color:grey;" %>
+       <%= link_to"Pagar por consignación o transferencia bancaria", "#", id: "PayByWire", class: "btn btn-default btn-lg btn-block fa fa-usd fa-5x", style: "color:grey;" %>
     </div>
     <div class="col-md-1"></div>
   </div>

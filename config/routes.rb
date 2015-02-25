@@ -3,6 +3,8 @@ Rails.application.routes.draw do
   root 'landing_pages#landing_A'
 
   get  'landing_pages/subscribe'
+
+  get 'landing_pages/wireform'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
