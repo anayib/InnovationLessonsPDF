@@ -18,7 +18,10 @@
     <div class="col-md-1"></div>
     <div class="col-md-10">
 
-       <%= link_to"Pagar con tarjeta de crédito", "#", id: "PayByGumroad",class: "btn btn-warning btn-lg btn-block fa fa-credit-card fa-5x", style: "color:white;" %>
+        <!-- <a href="https://gum.co/innovationlessons">Innovation Lessons Suscripción mensual</a> -->
+
+       <%= link_to"Pagar con tarjeta de crédito", "https://gum.co/innovationlessons", id: "PayByGumroad",class: "btn btn-warning btn-lg btn-block fa fa-credit-card fa-5x", style: "color:white;" %>
+        <script type="text/javascript" src="https://gumroad.com/js/gumroad.js"></script>
     </div>
 
     <div class="col-md-1"></div>
@@ -27,7 +30,7 @@
     <div class="col-md-1"></div>
     <div class="col-md-10">
 
-       <%= link_to"Pagar por consignación o transferencia bancaria", "#", id: "PayByWire", class: "btn btn-default btn-lg btn-block fa fa-usd fa-5x", style: "color:grey;" %>
+       <%= link_to"Pagar por consignación o transferencia bancaria", landing_pages_wireform_path, id: "PayByWire", class: "btn btn-default btn-lg btn-block fa fa-usd fa-5x", style: "color:grey;" %>
     </div>
     <div class="col-md-1"></div>
   </div>
