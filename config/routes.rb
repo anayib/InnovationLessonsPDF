@@ -2,6 +2,8 @@ Rails.application.routes.draw do
 
   root 'landing_pages#landing_A'
 
+  get 'landing_pages/landing_B'
+
   get  'landing_pages/subscribe'
 
   get 'landing_pages/wireform'

@@ -1,7 +1,7 @@
 <script>
-  mixpanel.track("Landing_A_loaded",{"Page Name": "Landing_A_loaded"});
+  mixpanel.track("Landing_B_loaded",{"Page Name": "Landing_B_loaded"});
   mixpanel.track_links("#suscribirmeLanding", "clicked suscribirme button");
-  mixpanel.track_links("#DescargarGuíaPrueba", "clicked descargar guía prueba");
+  mixpanel.track_links("#DescargarGuíaPrueba_LB", "clicked descargar guía prueba landing B");
 </script>
 
 
@@ -117,24 +117,8 @@
 
 </section> <br><br><br><br><br><br><!-- termina section whatyougetspecified -->
 <hr>
-<%#= render 'download_free_sample' %>
-<section>
-  <div class="callToAction">
-        <div class="container">
-         <div class="row">
-          <div class="col-sm-2"></div>
-            <div class="col-sm-8">
+<%= render 'download_free_sample' %>
 
-                  <a href="https://docs.google.com/forms/d/1wC5o2P9Le4DZaWVnSirq2-1DnoYOt7H9OKB5pDZS9mk/viewform" id= "DescargarGuíaPrueba", class="btn btn-default btn-lg btn-block", style= "color:grey", target="_blank">Descarga GRATIS la Guía #1 </a>
-
-
-                 <%= link_to"Si, ayúdenme a crecer mi negocio por 10.99/mes", landing_pages_subscribe_path, id: "suscribirmeLanding", class: "btn  btn-lg btn-block", style: "color:white; background-color:orange" %>
-            </div>
-          </div>
-           <div class="col-sm-2"></div>
-        </div>
-    </div>
-</section> <!-- termina section I botones subscription -->
 <hr>
 <br><br><br><br><br><br>
 
@@ -153,7 +137,7 @@
          <div class="row">
           <div class="col-sm-2"></div>
             <div class="col-sm-8">
-                  <a href="https://docs.google.com/forms/d/1wC5o2P9Le4DZaWVnSirq2-1DnoYOt7H9OKB5pDZS9mk/viewform" id= "DescargarGuíaPrueba", class="btn btn-default btn-lg btn-block", style= "color:grey", target="_blank">Descarga GRATIS la Guía #1</a>
+                  <a href="https://docs.google.com/forms/d/1wC5o2P9Le4DZaWVnSirq2-1DnoYOt7H9OKB5pDZS9mk/viewform" id= "DescargarGuíaPrueba_LB", class="btn btn-default btn-lg btn-block", style= "color:grey", target="_blank">Descarga GRATIS la Guía #1</a>
                  <%= link_to"Si, ayúdenme a crecer mi negocio por 10.99/mes",landing_pages_subscribe_path, id: "suscribirmeLanding", class: "btn  btn-lg btn-block", style: "color:white; background-color:orange" %>
             </div>
           </div>
@@ -299,7 +283,7 @@
          <div class="row">
           <div class="col-sm-2"></div>
             <div class="col-sm-8">
-                 <a href="https://docs.google.com/forms/d/1wC5o2P9Le4DZaWVnSirq2-1DnoYOt7H9OKB5pDZS9mk/viewform" id= "DescargarGuíaPrueba", class="btn btn-default btn-lg btn-block", style= "color:grey", target="_blank">Descarga GRATIS la Guía #1 </a>
+                 <a href="https://docs.google.com/forms/d/1wC5o2P9Le4DZaWVnSirq2-1DnoYOt7H9OKB5pDZS9mk/viewform" id= "DescargarGuíaPrueba_LB", class="btn btn-default btn-lg btn-block", style= "color:grey", target="_blank">Descarga GRATIS la Guía #1 </a>
                  <%= link_to"Si, ayúdenme a crecer mi negocio por 10.99/mes", landing_pages_subscribe_path, id: "suscribirmeLanding", class: "btn  btn-lg btn-block", style: "color:white; background-color:orange" %>
             </div>
           </div>

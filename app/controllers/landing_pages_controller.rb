@@ -4,6 +4,10 @@ class LandingPagesController < ApplicationController
 
   end
 
+  def landing_B
+
+  end
+
   def subscribe
 
   end
