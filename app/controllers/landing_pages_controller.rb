@@ -16,4 +16,8 @@ class LandingPagesController < ApplicationController
 
   end
 
+  def test
+
+  end
+
 end
