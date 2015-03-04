@@ -20,4 +20,8 @@ class LandingPagesController < ApplicationController
 
   end
 
+  def educators
+
+  end
+
 end
